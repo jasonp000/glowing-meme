@@ -2,7 +2,7 @@ provider "aws" {
 }
 
 module "server" {
-  source = "app.terraform.io/app/org187/ptfe-workspace-modules/server/aws"
+  source = "app.terraform.io/app/org187/server/aws"
 
   ami                    = var.ami
   subnet_id              = var.subnet_id
